@@ -15,7 +15,17 @@
 			<hr> 
 			<p class="font">Welcome to your number one stop for amazing pizza</p>
 		</div>
-		<div class="card">
+		<div class="card card1">
+			<h3><b>PIZZA PRICES</b></h3>
+			<p>Small pizza with any crust = 600KES</p>
+			<p>Medium pizza with any crust = 800KES</p>
+			<p>Large pizza with any crust = 1000KES</p>
+			<h3><b>TOPPINGS</b></h3>
+			<p>All small pizza toppings = 100KES</p>
+			<p>All medium pizza toppings = 150KES</p>
+			<p>All large pizza toppings = 200KES</p>
+		</div><br><br>
+		<div class="card card2">
 			<h3><b>START YOUR ORDER</b></h3><br>
 			<form>
 				<div class="row">
@@ -43,14 +53,22 @@
 				</div><br><br>
 				<div>
 					<label><h5>HOW MANY PIZZAS</h5></label><br>
-					Small <input class="number" type="number" name="smallNumber" id="smallNumber"> 
-					Medium <input class="number" type="number" name="mediumNumber" id="mediumNumber">
-					Large <input class="number" type="number" name="largeNumber" id="largeNumber">
+					Small <input class="number" type="number" name="smallNumber" id="smallNumber" min="1"> 
+					Medium <input class="number" type="number" name="mediumNumber" id="mediumNumber" min="1">
+					Large <input class="number" type="number" name="largeNumber" id="largeNumber" min="1">
 				</div><br>
 				<div>
 					<input type="submit" value="ORDER" id="submit">
+				</div><br>
+				<div>
+					<label><i><b>Would you like your order to be delivered to a desired destination?</b></i></label><br>
+					Yes <input type="radio" name="delivery" id="deliveryYes">
+					No <input type="radio" name="delivery" id="deliveryNo">
+				</div><br>
+				<div>
+					<input type="submit" id="checkOut" value="CHECKOUT">
 				</div>
 			</form>
-		</div>
+		</div><br><br>
 	</body>
 </html>

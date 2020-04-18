@@ -43,8 +43,14 @@ hr{
     font-size: 20px;
 }
 
-.card{
+.card1{
     margin-top: 240px;
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.150);
+    text-align: center;
+}
+
+.card2{
     padding: 20px;
     background-color: rgba(255, 0, 0, 0.150);
     text-align: center;
@@ -65,4 +71,9 @@ hr{
     width: 100px;
 }
 
-
+#checkOut{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    width: 120px;
+}
