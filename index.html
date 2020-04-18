@@ -16,21 +16,38 @@
 			<p class="font">Welcome to your number one stop for amazing pizza</p>
 		</div>
 		<div class="card">
-			<h3><b>START YOUR ORDER</b></h3>
+			<h3><b>START YOUR ORDER</b></h3><br>
 			<form>
-				<div class="size">
-					<label>CHOOSE YOUR PIZZA SIZE</label>
-					<input type="radio" name="size" value="Small" >
-					<input type="radio" name="size" value="Medium">
-					<input type="radio" name="size" value="Large">
-				</div>
+				<div class="row">
+					<div class="col-md-4 size">
+						<label><h5>PIZZA SIZE</h5></label><br>
+						Small <input type="radio" name="size" id="small"><br>
+						Medium <input type="radio" name="size" id="medium"><br>
+						Large <input type="radio" name="size" id="large"><br>
+					</div>
+					<div class="col-md-4 crust">
+						<label><h5>CRUST</h5></label><br>
+						Crispy <input type="radio" name="crust" id="crispy"><br>
+						Stuffed <input type="radio" name="crust" id="stuffed"><br>
+						Gluten-free <input type="radio" name="crust" id="glutenFree"><br>
+					</div>
+					<div class="col-md-4 toppings">
+						<label><h5>TOPPINGS</h5></label><br>
+						Pepperoni <input type="radio" name="toppings" id="pepperoni"><br>
+						Mushrooms <input type="radio" name="toppings" id="Mushrooms"><br>
+						Onions <input type="radio" name="toppings" id="onions"><br>
+						Bacon <input type="radio" name="toppings" id="bacon"><br>
+						Extra cheese <input type="radio" name="toppings" id="extraCheese"><br>
+						Pineapple <input type="radio" name="toppings" id="pineapple"><br>
+					</div>
+				</div><br><br>
 				<div>
-
-				</div>
+					<label><h5>HOW MANY PIZZAS</h5></label>
+					<input type="number" name="number" id="number"> 
+				</div><br>
 				<div>
-
+					<input type="submit" value="ORDER" id="submit">
 				</div>
-
 			</form>
 		</div>
 	</body>

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 body{
     background-image: url(../images/background.jpg);
     background-size: cover;
@@ -39,11 +43,25 @@ hr{
     font-size: 20px;
 }
 
-::-ms-value{
-    background-color: white;
-}
-
 .card{
     margin-top: 240px;
+    padding: 20px;
     background-color: transparent;
+    text-align: center;
 }
+
+#number{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    text-align: center;
+    width: 70px;
+}
+
+#submit{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+
