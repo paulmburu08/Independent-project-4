@@ -28,37 +28,37 @@
 		<div class="card card2">
 			<h3><b>START YOUR ORDER</b></h3><br>
 			<form>
-				<div class="row">
-					<div class="col-md-4 size">
-						<label><h5>PIZZA SIZE</h5></label><br>
-						Small <input type="checkbox" name="size" id="small"><br>
-						Medium <input type="checkbox" name="size" id="medium"><br>
-						Large <input type="checkbox" name="size" id="large"><br>
+				<div class="order">
+					<div class="row">
+						<div class="col-md-4 size">
+							<label><h5>PIZZA SIZE</h5></label><br>
+							Small <input type="radio" name="size" id="small"><br>
+							Medium <input type="radio" name="size" id="medium"><br>
+							Large <input type="radio" name="size" id="large"><br>
+						</div>
+						<div class="col-md-4 crust">
+							<label><h5>CRUST</h5></label><br>
+							Crispy <input type="radio" name="crust" id="crispy"><br>
+							Stuffed <input type="radio" name="crust" id="stuffed"><br>
+							Gluten-free <input type="radio" name="crust" id="glutenFree"><br>
+						</div>
+						<div class="col-md-4 toppings">
+							<label><h5>TOPPINGS</h5></label><br>
+							Pepperoni <input type="checkbox" name="toppings" id="pepperoni"><br>
+							Mushrooms <input type="checkbox" name="toppings" id="Mushrooms"><br>
+							Onions <input type="checkbox" name="toppings" id="onions"><br>
+							Bacon <input type="checkbox" name="toppings" id="bacon"><br>
+							Extra cheese <input type="checkbox" name="toppings" id="extraCheese"><br>
+							Pineapple <input type="checkbox" name="toppings" id="pineapple"><br>
+						</div>
+					</div><br><br>
+					<div>
+						<label><h5>HOW MANY PIZZAS</h5></label><br>
+							<input class="number" type="number" name="number" id="number" min="0"> 
+					</div><br>
+					<div>
+						<input type="submit" value="ORDER" id="submit">
 					</div>
-					<div class="col-md-4 crust">
-						<label><h5>CRUST</h5></label><br>
-						Crispy <input type="checkbox" name="crust" id="crispy"><br>
-						Stuffed <input type="checkbox" name="crust" id="stuffed"><br>
-						Gluten-free <input type="checkbox" name="crust" id="glutenFree"><br>
-					</div>
-					<div class="col-md-4 toppings">
-						<label><h5>TOPPINGS</h5></label><br>
-						Pepperoni <input type="checkbox" name="toppings" id="pepperoni"><br>
-						Mushrooms <input type="checkbox" name="toppings" id="Mushrooms"><br>
-						Onions <input type="checkbox" name="toppings" id="onions"><br>
-						Bacon <input type="checkbox" name="toppings" id="bacon"><br>
-						Extra cheese <input type="checkbox" name="toppings" id="extraCheese"><br>
-						Pineapple <input type="checkbox" name="toppings" id="pineapple"><br>
-					</div>
-				</div><br><br>
-				<div>
-					<label><h5>HOW MANY PIZZAS</h5></label><br>
-					Small <input class="number" type="number" name="smallNumber" id="smallNumber" min="0"> 
-					Medium <input class="number" type="number" name="mediumNumber" id="mediumNumber" min="0">
-					Large <input class="number" type="number" name="largeNumber" id="largeNumber" min="0">
-				</div><br>
-				<div>
-					<input type="submit" value="ORDER" id="submit">
 				</div><br>
 				<div>
 					<label><i><b>Would you like your order to be delivered to a desired destination?</b></i></label><br>
