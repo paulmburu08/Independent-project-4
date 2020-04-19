@@ -71,6 +71,13 @@ hr{
     width: 100px;
 }
 
+.delivery{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    width: 100px;
+}
+
 #checkOut{
     background-color: transparent;
     border-color: white;
