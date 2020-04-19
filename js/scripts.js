@@ -12,9 +12,9 @@ $(document).ready(function(){
         var pizzaNumber = $("input[name='number']").val();
         //end//
         var pizzaSize = {
-            small : 600+"KES",
-            medium : 800+"KES",
-            large : 1000+"KES",
+            smallPizza : 600+"KES",
+            mediumPizza : 800+"KES",
+            largePizza : 1000+"KES",
         };     
         var pizzaPrice = (pizzaSize[size])
 
@@ -30,7 +30,7 @@ $(document).ready(function(){
         var mediumPizza = new ToppingsPrice(150+"KES",150+"KES",150+"KES",150+"KES",150+"KES",150+"KES");
         var largePizza = new ToppingsPrice(200+"KES",200+"KES",200+"KES",200+"KES",200+"KES",200+"KES");
 
-        alert(largePizza.pepperoni);
+        alert((size).pineapple)
 
     });
 

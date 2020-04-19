@@ -32,9 +32,9 @@
 					<div class="row">
 						<div class="col-md-4 size">
 							<label><h5>SIZE</h5></label><br>
-							Small <input type="radio" name="size" id="small" value="small"><br>
-							Medium <input type="radio" name="size" id="medium" value="medium"><br>
-							Large <input type="radio" name="size" id="large" value="large"><br>
+							Small <input type="radio" name="size" id="small" value="smallPizza"><br>
+							Medium <input type="radio" name="size" id="medium" value="mediumPizza"><br>
+							Large <input type="radio" name="size" id="large" value="largePizza"><br>
 						</div>
 						<div class="col-md-4 crust">
 							<label><h5>CRUST</h5></label><br>
@@ -54,7 +54,7 @@
 					</div><br><br>
 					<div>
 						<label><h5>HOW MANY PIZZAS</h5></label><br>
-							<input class="number" type="number" name="number" id="number" min="0"> 
+						<input class="number" type="number" name="number" id="number" min="0"> 
 					</div><br>
 					<div>
 						<input type="submit" value="ORDER" id="submit">
@@ -65,6 +65,7 @@
 					<button class="delivery" id="yesDelivery">YES</button>
 					<button class="delivery" id="noDelivery">NO</button>
 				</div><br>
+				<div id="cart"></div><br>
 				<div>
 					<input type="submit" id="checkOut" value="CHECKOUT">
 				</div>
