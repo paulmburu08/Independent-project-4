@@ -39,9 +39,9 @@ $(document).ready(function(){
         event.preventDefault();
         flag = 1;
         var location = prompt('Please enter location')
-        var confirmation = confirm("Delivery to your location costs 400KES.Continue?")
+        var confirmation = confirm("Delivery to that location costs 400KES.Continue?")
         if(confirmation===true){
-            alert("Thank you. Your order will be delivered to your location. Please proceed to checkout to process your order")
+            alert("Thank you. Your order will be delivered to "+ location + ".Please proceed to checkout to process your order")
         }
         else{
             alert("You have cancelled delivery.")
@@ -67,7 +67,8 @@ $(document).ready(function(){
         }
 
         else{
-            $("#cart").append("<b>TOTAL COST</b><br>Pizza price: "+ totalPrice1 + "KES<br>Delivery: None<br><b>GRAND TOTAL</b>: "+ totalPrice2 +"KES.") 
+        $("#cart").append("<b>TOTAL COST</b><br>Pizza price: "+ totalPrice1 + "KES<br>Delivery: None<br><b>GRAND TOTAL</b>: "+ totalPrice2 +"KES.")
+        alert("Thank you. Enjoy your meal!!!")
         }
     });    
 
